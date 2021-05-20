@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<!-- https://css-tricks.com/look-ma-no-media-queries-responsive-layouts-using-css-grid/ -->
+<html>
+  <head>
+   <link rel="stylesheet" href="style.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+   <meta charset="utf-8"/>
+  </head>
+  <body>
+	  <main class="wrapper">
+      <nav class="menu sticky">
+        <div id="mobile-selector">
+          <i class="fa fa-2x fa-bars"></i>
+        </div>
+
+        <ul id="menu">
+          <li> <a href="materiales.html">MATERIALES</a> </li>
+          <li> <a href="pasos.html">PASOS</a> </li>
+          <li> <a href="codigos.html">CODIGOS</a> </li>
+        </ul>
+      </nav>
+
+
+  <section class="miseccion">
+    <h1>Materiales</h1>
+    <section class="welcome">
+      <p>Bienvenidos a la sección de Materiales</p>
+      <p>Este apartado es exclusivo para hablar de los materiales y/o herramientas que són imprescindibles para llevar a cabo nuestro proyecto.</p>
+      <p>Hemos realizado una tabla en la que se puede leer una lista con todos los componentes físicos del proyecto y su función.</p>
+    </section>
+
+    <section class="misubseccion">
+        <h1>Placa Arduino UNO</h1>
+        <p>Es el cerebro del proyecto, la placa la conectamos al ordenador y le introducimos el código para que envíe las órdenes a todos los componentes.</p>
+        <img src="images/placa.jpg" alt="" width="15%">
+    </section>
+
+    <section class="misubseccion">
+        <h1>Motor de 2 canales y placa de protección servo de 16 canales</h1>
+        <p>Esta placa se conecta sobre la placa Arduino, en ella conectamos los motores además del servo y los LEDS.</p>
+        <img src="images/Motor de 2 canales y placa.jpg" alt="" width="15%">
+    </section>
+
+    <section class="misubseccion">
+        <h1>Servo SG90</h1>
+        <p>Es el componente que permite al sensor de ultrasonidos  realizar el movimiento de “Radar”, de derecha a izquierda y viceversa.</p>
+        <img src="images/ServoSG.jpg" alt="" width="15%">
+    </section>
+
+    <section class="misubseccion">
+      <h1>Motores</h1>
+      <p>Esta pieza recibe los impulsos de la placa base, con lo que realiza la fuerza para mover las ruedas.</p>
+      <img src="images/motores.jpg" alt="" width="15%">
+    </section>
+
+    <section class="misubseccion">
+        <h1>Cables</h1>
+        <p>Su función es conectar los diferentes componentes a la placa Arduino UNO.</p>
+        <img src="images/cables.jpg" alt="" width="15%">
+    </section>
+
+    <section class="misubseccion">
+        <h1>Batería</h1>
+        <p>Funciona como fuente de alimentación de la placa Arduino UNO, cuando esta no está conectada al ordenador.</p>
+        <img src="images/bateria.jpg" alt="" width="15%">
+    </section>
+
+  </section>
+
+  </main>
+  <footer>
+    <p>&copy; 2021. Made with ❤ and CSS Grid.</p>
+  </footer>
+    </body>
+    <script src="script.js"></script>
+  </html>
